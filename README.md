@@ -68,6 +68,20 @@ smart-resume-parser/
 
 ## 📤 Deployment
 You can host this project locally or on platforms like Streamlit Cloud.
+## ⚠️ Model File Not Included
+
+The trained BERT-based model (`model.safetensors`) used in this project is **not included in the repository** due to GitHub's file size limits (max 100 MB).
+
+If you'd like to test or retrain the model:
+
+- You can fine-tune your own BERT model using the provided `resume_parser.ipynb` notebook and the annotated dataset.
+- Or, contact me  to get access to the pre-trained model via external cloud storage.
+
+Make sure to place the model inside:
+smart-resume-parser/
+└── ner_resume_model_final/
+└── model.safetensors
+
 
 ##Author
 **Rounak Laddha** – Master's in Data Science
